@@ -12,5 +12,5 @@ pool:
 steps:
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: 'Android' 
+    pathtoPublish: 'dist' 
     artifactName: 'allFiles'
