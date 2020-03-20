@@ -104,14 +104,11 @@ html {
 body {
 	height: 100%;
 	background-color: #ffffff;
-	background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-	background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-	background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-	background-repeat: repeat, no-repeat, no-repeat;
-	background-size: 100px 100px, cover, cover;
-	background-position: top left, center center, bottom center;
-	background-attachment: fixed, fixed, fixed;
+	background-image: url("../images/12.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 body:after {
@@ -185,7 +182,7 @@ a:before {
 }
 
 a:hover {
-	color: #ff7496;
+	color: #7986cc;
 }
 
 strong, b {
@@ -356,7 +353,7 @@ input[type="text"]:invalid, input[type="password"]:invalid, input[type="email"]:
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
-	border-color: #ff7496;
+	border-color: #7986cc;
 }
 
 select {
@@ -444,12 +441,12 @@ input[type="checkbox"]+label:before, input[type="radio"]+label:before {
 }
 
 input[type="checkbox"]:checked+label:before, input[type="radio"]:checked+label:before {
-	color: #ff7496;
+	color: #7986cc;
 	content: '\f00c';
 }
 
 input[type="checkbox"]:focus+label:before, input[type="radio"]:focus+label:before {
-	border-color: #ff7496;
+	border-color: #7986cc;
 }
 
 input[type="checkbox"]+label:before {
@@ -722,7 +719,7 @@ ul.icons li a:before {
 }
 
 ul.icons li a:hover:before {
-	text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+	text-shadow: 1.25px 0px 0px #7986cc, -1.25px 0px 0px #7986cc, 0px 1.25px 0px #7986cc, 0px -1.25px 0px #7986cc;
 }
 
 ul.icons li a:before {
@@ -738,7 +735,7 @@ ul.icons li a:before {
 }
 
 ul.icons li a:hover {
-	border-color: #ff7496;
+	border-color: #7986cc;
 }
 
 @media screen and (max-width: 480px) {
@@ -773,8 +770,8 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
-	border-color: #ff7496;
-	color: #ff7496 !important;
+	border-color: #7986cc;
+	color: #7986cc !important;
 }
 
 input[type="submit"].icon, input[type="reset"].icon, input[type="button"].icon, button.icon, .button.icon {
