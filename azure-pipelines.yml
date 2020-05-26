@@ -12,5 +12,5 @@ pool:
 steps:
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: 'AssistantNMS' 
-    artifactName: 'AssistantNMSImages'
+    pathtoPublish: 'dist' 
+    artifactName: 'allFiles'
