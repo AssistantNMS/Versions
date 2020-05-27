@@ -1,11 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300"); */
-
-@font-face {
-	font-family: 'NMS';
-	src: url('../webfonts/nms-font-by-blend3rman.ttf') format('truetype');
-	font-display: swap;
-}
-
+@import url('https://nmscd.github.io/No-Mans-Sky-Universal-Font/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.css');
 /*
 	Identity by HTML5 UP
 	html5up.net | @ajlkn
@@ -143,7 +136,7 @@ body.is-preload:after {
 
 body, input, select, textarea {
 	color: #414f57;
-	font-family: "NMS", sans-serif !important;
+	font-family: "NMSFuturaProBook", sans-serif !important;
 	font-size: 14pt;
 	font-weight: 300;
 	line-height: 2;

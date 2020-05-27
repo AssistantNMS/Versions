@@ -12,5 +12,5 @@ pool:
 steps:
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: 'dist' 
-    artifactName: 'allFiles'
+    pathtoPublish: 'web' 
+    artifactName: 'website'
