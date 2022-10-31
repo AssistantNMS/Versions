@@ -4,6 +4,6 @@
 
 # APK Versions
 Latest releases can be found on the [Release page](https://github.com/AssistantNMS/App/releases)
-Look in the [/Android](/Android) folder for the APK files
+Look in the [/Android](/Android) folder for the **VERY OLD** APK files
 
 ## For a prettier view, please visit [apk.nmsassistant.com](https://apk.nmsassistant.com)
